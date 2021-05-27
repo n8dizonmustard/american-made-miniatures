@@ -6,13 +6,13 @@
 }
 
 .nav-link {
-    margin: 15px;
+    margin: 18px;
     color: white;
     text-decoration: none;
     position: relative;
     top: 10px;
     z-index: 1;
-    font-size: 28px;
+    font-size: 200%;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -23,7 +23,7 @@
 
 .header-home {
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     object-fit: cover;
     object-position: 0 50%;
     position: relative;
@@ -35,12 +35,12 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    bottom: 230px;
+    bottom: 265px;
     border: 6px solid white;
     width: 500px;
     margin: auto;
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 .header-title {

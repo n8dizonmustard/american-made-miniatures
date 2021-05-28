@@ -21,9 +21,9 @@
     color: #E3BD03;
 }
 
-.header-home {
+.header-home-pic {
     width: 100%;
-    height: 35vh;
+    height: 300px;
     object-fit: cover;
     object-position: 0 50%;
     position: relative;

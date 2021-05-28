@@ -12,7 +12,7 @@ export default function Header(){
             <Link to='/visit' className='nav-link'>Visit</Link>
             <Link to='/animals' className='nav-link'>Animals</Link>
         </div>
-        <img src={HeaderHomePic} alt='headerhome' className='header-home'/>
+        <img src={HeaderHomePic} alt='headerhome' className='header-home-pic'/>
         <div className='header-div'>
             <h1 className='header-title'>Stable Acres</h1>
             <p>Home of American Made Miniatures</p>

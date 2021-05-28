@@ -13,3 +13,14 @@
     color: gray;
 
 }
+
+#contact-text {
+    display: inline-block;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#contact-icon {
+    margin-bottom: 20px;
+}

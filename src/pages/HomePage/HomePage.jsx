@@ -14,7 +14,7 @@ export default function HomePage({ isHome }){
                     <Image src={AboutPic} id='about-pic'/>
                 </Grid.Column>
                 <Grid.Column width={8}>
-                    <h1>American Made Miniatures</h1>
+                    <h1 id='header'>American Made Miniatures</h1>
                     <p>is a small family operated farm sanctuary, located in beautiful Petaluma, California.</p>
                     <p>We invite the public to come visit, feed, pet, & learn about our animals. We can also take some of our animals to schools, day-cares, convalescent homes, assisted living communities, churches & more.</p>
                     <p>Ask about our free community service events/visits for qualifying organizations, limited number of openings available.</p>

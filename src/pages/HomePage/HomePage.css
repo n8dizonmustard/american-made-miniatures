@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+
 #about {
     position: relative;
     bottom: 200px;
+    font-family: 'Lora', serif;
+}
+
+#header {
+    font-family: 'Lora', serif;
 }
 
 #about-pic {

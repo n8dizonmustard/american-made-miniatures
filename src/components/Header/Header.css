@@ -11,9 +11,10 @@
     position: relative;
     top: 10px;
     z-index: 1;
-    font-size: 200%;
+    font-size: 150%;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    font-weight: bolder;
 }
 
 .nav-link:hover {

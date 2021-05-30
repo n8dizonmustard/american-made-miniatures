@@ -4,10 +4,10 @@ import { Divider, Grid, Icon, Image, Segment } from 'semantic-ui-react';
 import Header from '../../components/Header/Header';
 import AboutPic from '../../pics/homepage/about.png';
 
-export default function HomePage(){
+export default function HomePage({ isHome }){
     return(
         <>
-        <Header />
+        <Header isHome={true}/>
         <Grid stackable columns={2} id='about'>
             <Grid.Row>
                 <Grid.Column width={7}>

@@ -25,7 +25,7 @@
 }
 
 .nav-link:hover {
-    color: cyan;
+    color: yellow;
 }
 
 .header-home-pic, .header-visit-pic, .header-animals-pic {
@@ -60,22 +60,22 @@
 }
 
 .header-home-div {
-    width: 500px;
+    width: 55vw;
     bottom: 265px;
 }
 
 .header-visit-div {
-    width: 600px;
+    width: 55vw;
     bottom: 250px;
 }
 
 .header-animals-div {
-    width: 700px;
+    width: 65vw;
     bottom: 250px;
 }
 
 .header-title {
-    font-size: 60px;
+    font-size: 6vw;
     font-family: 'Playfair Display SC', serif;
     position: relative;
     text-shadow: -3px 1px 0 #000;
@@ -85,4 +85,343 @@ p {
     font-size: 18px;
     position: relative;
     bottom: 10px;
+}
+
+/* -------------------- Vertical viewing --------------------*/
+
+/* Galaxy Fold */
+@media only screen and (min-width: 280px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 18px;
+        top: 15px;
+    }
+
+    .header-title {
+        font-size: 7vw;
+    }
+
+    #header-text {
+        font-size: 12px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 10px;
+        margin-top: 115px;
+        width: 240px;
+        border: 4px solid white;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        margin-top: 100px;
+        width: 220px;
+        border: 4px solid white;
+    }
+
+    .header-animals-div {
+        padding: 20px;
+        margin-top: 100px;
+        width: 260px;
+        border: 4px solid white;
+    }
+}
+
+/* iPhone 5/SE */
+@media only screen and (min-width: 320px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 18px;
+        top: 15px;
+    }
+
+    #header-text {
+        font-size: 12px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 10px;
+        margin-top: 130px;
+        width: 260px;
+        border: 4px solid white;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        margin-top: 110px;
+        width: 240px;
+        border: 4px solid white;
+    }
+
+    .header-animals-div {
+        padding: 20px;
+        margin-top: 110px;
+        width: 280px;
+        border: 4px solid white;
+    }
+}
+
+/* Moto G4, Galaxy S5 */
+@media only screen and (min-width: 360px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    #header-text {
+        font-size: 12px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 10px;
+        margin-top: 110px;
+        width: 300px;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        margin-top: 90px;
+        width: 260px;
+    }
+
+    .header-animals-div {
+        padding: 20px;
+        margin-top: 95px;
+        width: 300px;
+    }
+}
+
+/* iPhone 6/7/8, iPhone X */
+@media only screen and (min-width: 375px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    #header-text {
+        font-size: 12px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 10px;
+        margin-top: 100px;
+        width: 300px;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        margin-top: 90px;
+        width: 270px;
+    }
+
+    .header-animals-div {
+        padding: 20px;
+        margin-top: 90px;
+        width: 310px;
+    }
+}
+
+/* Pixel 2, Pixel 2XL */
+@media (min-width: 411px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 20px;
+        top: 20px;
+    }
+
+    #header-text {
+        font-size: 12px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 10px;
+        margin-top: 100px;
+        width: 300px;
+    }
+
+    .header-visit-div, .header-animals-div {
+        padding: 20px;
+        margin-top: 80px;
+        width: 330px;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen and (min-width: 414px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 175%;
+    }
+
+    #header-text {
+        font-size: 16px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 20px;
+        margin-top: 75px;
+    }
+
+    .header-visit-div, .header-animals-div {
+        padding: 20px;
+        margin-top: 60px;
+    }
+}
+
+/* Surface Duo */
+@media only screen and (min-width: 540px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 150%;
+        margin: 32px;
+        top: 24px;
+    }
+
+    #header-text {
+        font-size: 16px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        width: 60vw;
+        bottom: 250px;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        width: 67vw;
+        bottom: 225px;
+    }
+
+    .header-animals-div {
+        width: 77vw;
+        bottom: 225px;
+    }
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 200%;
+        margin: 48px;
+        top: 35px;
+    }
+
+    #header-text {
+        font-size: 22px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        padding: 20px;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .header-visit-div, .header-animals-div {
+        padding: 20px;
+        margin-top: -10px;
+        width: 580px;
+    }
+}
+
+/* iPad Pro */
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        text-align: right;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 180%;
+        margin: 48px;
+        top: 35px;
+    }
+
+    #header-text {
+        font-size: 22px;
+    }
+
+    .header-home-pic, .header-visit-pic, .header-animals-pic {
+        height: 30vh;
+    }
+
+    .header-home-div {
+        width: 55vw;
+        bottom: 340px;
+    }
+
+    .header-visit-div {
+        padding: 20px;
+        width: 60vw;
+        bottom: 320px;
+    }
+
+    .header-animals-div {
+        width: 70vw;
+        bottom: 320px;
+    }
 }

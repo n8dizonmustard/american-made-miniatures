@@ -8,7 +8,7 @@ export default function HomePage({ isHome }){
     return(
         <>
         <Header isHome={true}/>
-        <Grid stackable columns={2} id='about'>
+        {/* <Grid stackable columns={2} id='about'>
             <Grid.Row>
                 <Grid.Column width={7}>
                     <Image src={AboutPic} id='about-pic'/>
@@ -38,7 +38,7 @@ export default function HomePage({ isHome }){
                     <p id='contact-text'>Follow us on Facebook!</p>
                 </Grid.Column>
             </Grid.Row>
-        </Grid>
+        </Grid> */}
         </>
     ) 
 }

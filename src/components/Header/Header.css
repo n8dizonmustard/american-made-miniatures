@@ -22,7 +22,6 @@
 
 .nav-link:hover {
     color: yellow;
-    text-decoration: underline;
 }
 
 .header-home-pic, .header-visit-pic, .header-animals-pic {
@@ -84,9 +83,9 @@ p {
     bottom: 10px;
 }
 
-/* ------------------------- TEST AREA -------------------------*/
+/* ------------------------- RESPONSIVE LAYOUTS -------------------------*/
 
-@media (max-width: 500px) {
+@media (max-width: 548px) {
     .nav-link {
         margin: 14px;
         top: 10px;

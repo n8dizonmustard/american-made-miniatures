@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import { Divider, Grid, Icon, Image, Segment } from 'semantic-ui-react';
+import { Divider, Grid, Icon, Image } from 'semantic-ui-react';
 import Header from '../../components/Header/Header';
 import AboutPic from '../../pics/homepage/about.png';
 
@@ -8,7 +8,7 @@ export default function HomePage({ isHome }){
     return(
         <>
         <Header isHome={true}/>
-        {/* <Grid stackable columns={2} id='about'>
+        <Grid stackable columns={2} id='about'>
             <Grid.Row>
                 <Grid.Column width={7}>
                     <Image src={AboutPic} id='about-pic'/>
@@ -27,18 +27,18 @@ export default function HomePage({ isHome }){
             <Grid.Row centered>
                 <Grid.Column width={5}>
                     <Icon name='phone' color='green' size='big' flipped='horizontally' id='contact-icon'/>
-                    <p id='contact-text'>Office: (707) 778-2060</p>
+                    <p class='contact-text'>Office: (707) 778-2060</p>
                 </Grid.Column>
                 <Grid.Column width={6}>
                     <Icon name='mail' color='red' size='big' id='contact-icon'/>
-                    <p id='contact-text'>AmericanMadeMiniatures@yahoo.com</p>
+                    <p class='contact-text' id='email'>AmericanMadeMiniatures@yahoo.com</p>
                 </Grid.Column>
                 <Grid.Column width={4}>
                     <Icon name='facebook official' color='blue' size='big' id='contact-icon'/>
-                    <p id='contact-text'>Follow us on Facebook!</p>
+                    <p class='contact-text'>Follow us on Facebook!</p>
                 </Grid.Column>
             </Grid.Row>
-        </Grid> */}
+        </Grid>
         </>
     ) 
 }

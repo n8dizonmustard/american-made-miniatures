@@ -18,10 +18,9 @@
 #covid {
     font-size: 16px;
     color: gray;
-
 }
 
-#contact-text {
+.contact-text {
     display: inline-block;
     margin: auto;
     width: 75%;
@@ -30,4 +29,37 @@
 
 #contact-icon {
     margin-bottom: 20px;
+}
+
+/* ------------------------- RESPONSIVE LAYOUTS -------------------------*/
+
+@media (max-width: 500px) {
+    #about {
+        position: relative;
+        bottom: 100px;
+    }
+
+    #about-pic {
+        height: 400px;
+    }
+
+    #header {
+        font-size: 26px;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    #about-pic {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #about-pic {
+        height: 90%;
+    }
 }

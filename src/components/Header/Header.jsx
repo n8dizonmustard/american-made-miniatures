@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import { Image } from 'semantic-ui-react';
+import { Image, Icon } from 'semantic-ui-react';
 import HeaderHome from '../../pics/headers/home.png';
 import HeaderVisit from '../../pics/headers/visit.jpeg';
 import HeaderAnimals from '../../pics/headers/animals.jpeg';
@@ -11,9 +11,18 @@ export default function Header({ isHome, isVisit }){
         <>
         <div className='parent'>
             <div className='navbar'>
-                <Link to='/' className='nav-link'>Stable Acres</Link>
-                <Link to='/visit' className='nav-link'>Visit</Link>
-                <Link to='/animals' className='nav-link'>Animals</Link>
+                <Link to='/' className='nav-link'>
+                    <Icon name='home' size='small' color='white'/>
+                    Stable Acres
+                </Link>
+                <Link to='/visit' className='nav-link'>
+                    <Icon name='map marker alternate' size='small' color='white'/>
+                    Visit
+                </Link>
+                <Link to='/animals' className='nav-link'>
+                    <Icon name='paw' size='small' color='white'/>
+                    Animals
+                </Link>
             </div>
             <Image
                 alt='header'

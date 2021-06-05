@@ -2,10 +2,12 @@ import React from 'react';
 import './VisitPage.css';
 import Header from '../../components/Header/Header';
 import { Image, Grid } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 import FarmToursPic from '../../pics/visit/farm-tours.jpeg';
 import PonyPic from '../../pics/visit/my-little-pony.jpeg';
 import UnicornPic from '../../pics/visit/cowboy_unicorn.jpeg';
 import ServicePic from '../../pics/visit/service.jpeg';
+import MapPic from '../../pics/visit/map.png';
 import ImageSlider from '../../components/Gallery/ImageSlider';
 import { SliderData } from '../../components/Gallery/SliderData';
 
@@ -75,6 +77,15 @@ export default function VisitPage({ isHome }){
                     <p>And more!</p>
                 </div>
                 <Image src={ServicePic} className='images' id='service-pic' />
+            </div>
+        </div>
+
+        <div className='flex-container' id='odd'>
+            <div className='map-content'>
+                <a href='https://www.google.com/maps/dir//1220+San+Antonio+Rd,+Petaluma,+CA+94952/@38.1861796,-122.6593449,14z/data=!4m17!1m7!3m6!1s0x8085b7249c4d9435:0xe1a853020913ad59!2s1220+San+Antonio+Rd,+Petaluma,+CA+94952!3b1!8m2!3d38.188274!4d-122.644508!4m8!1m0!1m5!1m1!1s0x8085b7249c4d9435:0xe1a853020913ad59!2m2!1d-122.644508!2d38.188274!3e3?hl=en'>
+                    <Image src={MapPic} id='map-pic' />
+                </a>
+                <p id='transportation'>Please contact us for information regarding transportation.</p>
             </div>
         </div>
 

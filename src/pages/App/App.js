@@ -4,7 +4,7 @@ import HomePage from '../HomePage/HomePage';
 import VisitPage from '../VisitPage/VisitPage';
 import AnimalsPage from '../AnimalsPage/AnimalsPage';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
@@ -20,8 +20,7 @@ function App() {
         </Route>
       </Switch>
       </BrowserRouter>
+
     </div>
   );
 }
-
-export default App;

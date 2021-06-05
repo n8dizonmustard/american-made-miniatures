@@ -54,6 +54,20 @@ li {
     width: 350px;
 }
 
+#service-list {
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+}
+
+#service-pic {
+    height: 350px;
+}
+
+.images {
+    border-radius: 7px;
+}
+
 
 /* -------------------- RESPONSIVE LAYOUTS --------------------*/
 
@@ -86,7 +100,17 @@ li {
     }
 }
 
+@media (max-width: 548px) {
+    .flex-container {
+        top: -90px;
+    }
+}
+
 @media (max-width: 700px) {
+    .flex-container {
+        bottom: 140px;
+    }
+
     #content {
         display: block;
     }

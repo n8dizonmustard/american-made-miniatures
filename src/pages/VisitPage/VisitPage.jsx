@@ -5,6 +5,7 @@ import { Image, Grid } from 'semantic-ui-react';
 import FarmToursPic from '../../pics/visit/farm-tours.jpeg';
 import PonyPic from '../../pics/visit/my-little-pony.jpeg';
 import UnicornPic from '../../pics/visit/cowboy_unicorn.jpeg';
+import ServicePic from '../../pics/visit/service.jpeg';
 import ImageSlider from '../../components/Gallery/ImageSlider';
 import { SliderData } from '../../components/Gallery/SliderData';
 
@@ -14,7 +15,7 @@ export default function VisitPage({ isHome }){
         <Header isHome={false} isVisit={true}/>
         <div className='flex-container' id='odd'>
             <div className='tours-content' id='content'>
-                <Image src={FarmToursPic} className='flex-item' id='tour-pic' />
+                <Image src={FarmToursPic} className='images' id='tour-pic' />
                 <div className='flex-item'  id='text-on-right'>
                     <h1 id='header'>Private Farm Tours</h1>
                     <h2 id='pricing'>Adults: $25, Children: $15</h2>
@@ -41,13 +42,13 @@ export default function VisitPage({ isHome }){
                     <br />
                     <p>All classes are reserved by appointment only.</p>
                 </div>
-                <Image src={PonyPic} id='pony-pic' />
+                <Image src={PonyPic} className='images' id='pony-pic' />
             </div>
         </div>
 
         <div className='flex-container' id='odd'>
             <div className='photography-content' id='content'>
-                <Image src={UnicornPic} id='unicorn-pic' />
+                <Image src={UnicornPic} className='images' id='unicorn-pic' />
                 <div className='flex-item'  id='text-on-right'>
                     <h1 id='header'>Photography</h1>
                     <h2 id='pricing'>Adults: $25, Children: $15</h2>
@@ -57,6 +58,25 @@ export default function VisitPage({ isHome }){
             </div>
         </div>
 
+        <div className='flex-container' id='even'>
+            <div className='service-content' id='content'>
+                <div className='flex-item' id='text-on-left'>
+                    <h1 id='header'>Community Service</h1>
+                    <p>Please ask us about our free community service events for</p>
+                    <div id='service-list'>
+                        <li>Youth Groups</li>
+                        <li>4-H Groups</li>
+                        <li>Scouts</li>
+                        <li>Churches</li>
+                        <li>Senior Organizations</li>
+                        <li>Schools</li>
+                    </div>
+                    <br />
+                    <p>And more!</p>
+                </div>
+                <Image src={ServicePic} className='images' id='service-pic' />
+            </div>
+        </div>
 
         {/* <ImageSlider slides={SliderData} /> */}
 

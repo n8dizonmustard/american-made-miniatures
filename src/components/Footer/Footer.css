@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+
+.contact-text {
+    display: inline-block;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#contact-icon {
+    margin-bottom: 20px;
+}
+
+/* ------------------------- RESPONSIVE LAYOUTS -------------------------*/
+
+@media (max-width: 500px) {
+    #email {
+        font-size: 16px;
+    }
+}

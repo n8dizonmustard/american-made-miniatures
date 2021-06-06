@@ -79,7 +79,7 @@ li {
 }
 
 #contact-form {
-    background-color: #0400B1;
+    background-color: #E83535;
     margin-top: 50px;
 }
 
@@ -102,14 +102,13 @@ li {
 
 #form-header {
     text-align: center;
-    color: white;
     margin-top: 20px;
     font-size: 30px;
     font-family: 'Lora', serif;
 }
 
 #contact-message {
-    color: white;
+    /* color: white; */
     font-size: 16px;
     text-align: justify;
     width: 490px;

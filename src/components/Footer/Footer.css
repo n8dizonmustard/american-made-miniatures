@@ -1,20 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
 
-.contact-text {
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: honeydew;
+    position: relative;
+    bottom: 140px;
+}
+
+.call, .email, .facebook {
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#call-text, #email-text, #facebook-text {
     display: inline-block;
-    margin: auto;
-    width: 75%;
-    padding: 10px;
 }
 
-#contact-icon {
-    margin-bottom: 20px;
+#call-text, #email-text, #facebook-text {
+    position: relative;
+    top: 1px;
 }
 
-/* ------------------------- RESPONSIVE LAYOUTS -------------------------*/
+#facebook-icon {
+    position: relative;
+    top: -1px;
+}
 
-@media (max-width: 500px) {
-    #email {
-        font-size: 16px;
+
+@media (max-width: 647px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    #call-text, #email-text, #facebook-text {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 357px) {
+    #call-text, #email-text, #facebook-text {
+        font-size: 14px;
     }
 }

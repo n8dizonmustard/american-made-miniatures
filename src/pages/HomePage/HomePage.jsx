@@ -3,6 +3,7 @@ import './HomePage.css';
 import { Divider, Grid, Icon, Image } from 'semantic-ui-react';
 import Header from '../../components/Header/Header';
 import AboutPic from '../../pics/homepage/about.png';
+import Footer from '../../components/Footer/Footer';
 
 export default function HomePage({ isHome }){
     return(
@@ -24,21 +25,8 @@ export default function HomePage({ isHome }){
                 </Grid.Column>
             </Grid.Row>
             <Divider />
-            <Grid.Row centered>
-                <Grid.Column width={5}>
-                    <Icon name='phone' color='green' size='big' flipped='horizontally' id='contact-icon'/>
-                    <p class='contact-text'>Office: (707) 778-2060</p>
-                </Grid.Column>
-                <Grid.Column width={6}>
-                    <Icon name='mail' color='red' size='big' id='contact-icon'/>
-                    <p class='contact-text' id='email'>AmericanMadeMiniatures@yahoo.com</p>
-                </Grid.Column>
-                <Grid.Column width={4}>
-                    <Icon name='facebook official' color='blue' size='big' id='contact-icon'/>
-                    <p class='contact-text'>Follow us on Facebook!</p>
-                </Grid.Column>
-            </Grid.Row>
         </Grid>
+        <Footer />
         </>
     ) 
 }
